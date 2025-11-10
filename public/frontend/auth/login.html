@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login HTML</title>
+    <link rel="stylesheet" href="/public/frontend/css/auth.css">
+    
+</head>
+<body>
+    <form action="login.php" method="post">
+        <div class="login">
+            <div class="login-container">
+                
+                <div class="login-header">
+                    <h2>LOGIN</h2>
+                </div>
+                
+                    <div class="input-group">
+                        <input type="text" name="user" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="pass" placeholder="Password" required>
+                    </div>
+                    <div class="options">
+                        <label class="remember-me">
+                            <input type="checkbox"> Ghi nhớ tôi
+                        </label>
+                        <a href="#" class="forget-password">Quên mật khẩu</a>
+                    </div>
+                    <p>TK: admin   |   MK: root</p>
+                    <button type="submit" class="login-button">Đăng nhập</button>
+                    <div class="register-link">
+                        Bạn chưa có tài khoản? <a href="/public/frontend/auth/register.html">Đăng ký</a>
+                    </div>
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>
